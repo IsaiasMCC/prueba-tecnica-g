@@ -1,0 +1,15 @@
+C:\Users\isais\source\repos\ConsoleTask\Task\bin\Debug\net8.0\Task.exe
+C:\Users\isais\source\repos\ConsoleTask\Task\bin\Debug\net8.0\Task.deps.json
+C:\Users\isais\source\repos\ConsoleTask\Task\bin\Debug\net8.0\Task.runtimeconfig.json
+C:\Users\isais\source\repos\ConsoleTask\Task\bin\Debug\net8.0\Task.dll
+C:\Users\isais\source\repos\ConsoleTask\Task\bin\Debug\net8.0\Task.pdb
+C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.AssemblyInfoInputs.cache
+C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.AssemblyInfo.cs
+C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.csproj.CoreCompileInputs.cache
+C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.dll
+C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\refint\Task.dll
+C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.pdb
+C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.genruntimeconfig.cache
+C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\ref\Task.dll
+C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.sourcelink.json
