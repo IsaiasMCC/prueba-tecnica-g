@@ -51,7 +51,12 @@ namespace Task.API.Controllers
             return new JsonResult(new { message = "Tarea marcada con éxito" });
         }
 
-        
+        // Para listar todas las tareas pendientes.
+        [HttpGet]
+        public JsonResult GetTasks()
+        {
+            return new JsonResult(task.getPendingTask());
+        }
 
     }
 }
