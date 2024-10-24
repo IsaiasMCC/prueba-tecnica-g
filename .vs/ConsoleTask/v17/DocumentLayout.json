@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\presentation\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\presentation\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\datas\\serialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\datas\\serialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\bussines\\ntask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\bussines\\ntask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\bussines\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\bussines\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Serialize.cs",
+              "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Datas\\Serialize.cs",
+              "RelativeDocumentMoniker": "Task\\Datas\\Serialize.cs",
+              "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Datas\\Serialize.cs",
+              "RelativeToolTip": "Task\\Datas\\Serialize.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T02:22:22.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Presentation.cs",
+              "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Presentation\\Presentation.cs",
+              "RelativeDocumentMoniker": "Task\\Presentation\\Presentation.cs",
+              "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Presentation\\Presentation.cs",
+              "RelativeToolTip": "Task\\Presentation\\Presentation.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:40:42.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Bussines\\TaskModel.cs",
+              "RelativeDocumentMoniker": "Task\\Bussines\\TaskModel.cs",
+              "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Bussines\\TaskModel.cs",
+              "RelativeToolTip": "Task\\Bussines\\TaskModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:40:39.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NTask.cs",
+              "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Bussines\\NTask.cs",
+              "RelativeDocumentMoniker": "Task\\Bussines\\NTask.cs",
+              "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Bussines\\NTask.cs",
+              "RelativeToolTip": "Task\\Bussines\\NTask.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwC4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:40:31.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Program.cs",
+              "RelativeDocumentMoniker": "Task\\Program.cs",
+              "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Program.cs",
+              "RelativeToolTip": "Task\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:51:30.984Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
