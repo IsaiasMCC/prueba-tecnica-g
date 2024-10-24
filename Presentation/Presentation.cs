@@ -23,6 +23,13 @@ namespace Task.Presentation
             task.add(new TaskModel(taskName));
         }
 
+        public void RemoveTask()
+        {
+            Console.WriteLine("\n");
+            Console.Write("ID de la Tarea a eliminar: ");
+            int taskId = int.Parse(Console.ReadLine());
+            task.remove(taskId);
+        }
         public void ShowMenu()
         {
             int option = 0;
@@ -51,7 +58,7 @@ namespace Task.Presentation
                             AddTask();
                             break;
                         case 4:
-                            
+                            RemoveTask();
                             break;
                         case 5:
                             Console.WriteLine("Saliendo...");

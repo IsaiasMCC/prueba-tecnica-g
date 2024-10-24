@@ -12,4 +12,3 @@ C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\refint\Task.dll
 C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.pdb
 C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.genruntimeconfig.cache
 C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\ref\Task.dll
-C:\Users\isais\source\repos\ConsoleTask\Task\obj\Debug\net8.0\Task.sourcelink.json

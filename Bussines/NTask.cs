@@ -19,7 +19,24 @@ namespace Task.Bussines
             task.Id = Tasks.Count() + 1;
             Tasks.Add(task);
         }
-
+        public void remove(int id)
+        {
+            int taskId = id - 1;
+            if (Tasks.Count() > taskId)
+            {
+                Tasks.RemoveAt(taskId);
+                sort();
+            }
+        }
+        public void sort()
+        {
+            int index = 0;
+            foreach (TaskModel task in Tasks)
+            {
+                index++;
+                task.Id = index;
+            }
+        }
 
 
     }
