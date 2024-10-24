@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Task.Bussines;
 namespace Task.Datas
 {
    
@@ -26,6 +27,11 @@ namespace Task.Datas
             Console.WriteLine(objectt);
             read.Close();
             return objectt;
+        }
+
+        public static bool ExistFile(string file)
+        {
+            return  File.Exists(file);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Task.Presentation
         {
             string filePath = "task.json";
             task = new NTask();
-            if (File.Exists(filePath))
+            if (Serialize.ExistFile(filePath))
             {
                 task = Serialize.Load<NTask>(filePath);
             }

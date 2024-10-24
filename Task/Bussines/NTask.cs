@@ -48,6 +48,24 @@ namespace Task.Bussines
             }
         }
 
+        public List<TaskModel> getPendingTask()
+        {
+            return Tasks.Where( task => !(task.State)).ToList(); 
+        }
 
+        public List<TaskModel> getCompleteTask()
+        {
+            return Tasks.Where(task => (task.State)).ToList();
+        }
+
+        public TaskModel get(int id)
+        {
+            int taskId = id - 1;
+            if (Tasks.Count() > taskId)
+            {
+                return Tasks.ElementAt(taskId);
+            }
+            return null;
+        }
     }
 }
