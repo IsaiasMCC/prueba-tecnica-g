@@ -42,5 +42,16 @@ namespace Task.API.Controllers
             return new JsonResult(new { message = "Tarea eliminada con éxito" });
         }
 
+        // Para marcar una tarea como completada.
+        [HttpPatch("{id}")]
+        public JsonResult UpdateTask(int id)
+        {
+            task.changeCompreteTask(id);
+            Serialize.Save(task, filePath);
+            return new JsonResult(new { message = "Tarea marcada con éxito" });
+        }
+
+        
+
     }
 }
