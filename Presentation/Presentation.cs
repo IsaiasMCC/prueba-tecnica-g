@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Task.Bussines;
+using Task.Datas;
 
 namespace Task.Presentation
 {
@@ -13,7 +14,12 @@ namespace Task.Presentation
 
         public Presentation() 
         {
+            string filePath = "task.json";
             task = new NTask();
+            if (File.Exists(filePath))
+            {
+                task = Serialize.Load<NTask>(filePath);
+            }
         }
         public void AddTask()
         {
@@ -124,6 +130,8 @@ namespace Task.Presentation
                 }
 
             } while (option != 6);
+            //Guarda el archivo
+            Serialize.Save<NTask>(task, "task.json");
         }
 
        
