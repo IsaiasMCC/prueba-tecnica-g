@@ -38,6 +38,43 @@ namespace Task.Presentation
             int taskId = int.Parse(Console.ReadLine());
             task.changeCompreteTask(taskId);
         }
+        public void showPendingTask()
+        {
+            Console.WriteLine("\nTareas Pendientes:");
+            showHeadTask();
+            string tableFooter = "╚═══════╩════════════════════════╝";
+            foreach (TaskModel task in task.Tasks.Where(task => !(task.State)))
+            {
+                string row = $"║ {task.Id,-5} ║ {task.Name,-20} ";
+                Console.WriteLine(row);
+            }
+
+            Console.WriteLine(tableFooter);
+        }
+
+        public void showCompleteTask()
+        {
+            Console.WriteLine("\nTareas Completadas:");
+            showHeadTask();
+            string tableFooter = "╚═══════╩════════════════════════╝";
+            foreach (TaskModel task in task.Tasks.Where(task => (task.State)))
+            {
+                string row = $"║ {task.Id,-5} ║ {task.Name,-20} ║";
+                Console.WriteLine(row);
+            }
+
+            Console.WriteLine(tableFooter);
+        }
+
+        public void showHeadTask()
+        {
+            string tableHeader = "╔═══════╦════════════════════════╗";
+            string headerContent = "║  Id   ║        Nombre          ║";
+
+            Console.WriteLine(tableHeader);
+            Console.WriteLine(headerContent);
+            Console.WriteLine("╠═══════╬════════════════════════╣");
+        }
 
         public void ShowMenu()
         {
@@ -59,10 +96,10 @@ namespace Task.Presentation
                     switch (option)
                     {
                         case 1:
-                            
+                            showPendingTask();
                             break;
                         case 2:
-                            
+                            showCompleteTask();
                             break;
                         case 3:
                             AddTask();

@@ -44,6 +44,7 @@ namespace Task.Bussines
             if (Tasks.Count() > taskId)
             {
                 Tasks[taskId].State = true;
+                sort();
             }
         }
 
