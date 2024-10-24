@@ -38,6 +38,15 @@ namespace Task.Bussines
             }
         }
 
+        public void changeCompreteTask(int id)
+        {
+            int taskId = id - 1;
+            if (Tasks.Count() > taskId)
+            {
+                Tasks[taskId].State = true;
+            }
+        }
+
 
     }
 }

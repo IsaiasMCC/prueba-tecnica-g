@@ -30,6 +30,15 @@ namespace Task.Presentation
             int taskId = int.Parse(Console.ReadLine());
             task.remove(taskId);
         }
+
+        public void changeCompleteTask()
+        {
+            Console.WriteLine("\n");
+            Console.Write("ID de la Tarea para marcar como hecha: ");
+            int taskId = int.Parse(Console.ReadLine());
+            task.changeCompreteTask(taskId);
+        }
+
         public void ShowMenu()
         {
             int option = 0;
@@ -41,7 +50,8 @@ namespace Task.Presentation
                 Console.WriteLine("2. Ver Tareas Completadas");
                 Console.WriteLine("3. Agregar Tarea");
                 Console.WriteLine("4. Eliminar Tarea");
-                Console.WriteLine("5. Salir");
+                Console.WriteLine("5. Marcar tarea como completada");
+                Console.WriteLine("6. Salir");
                 Console.Write("Selecciona una opción: ");
 
                 if (int.TryParse(Console.ReadLine(), out option))
@@ -61,6 +71,9 @@ namespace Task.Presentation
                             RemoveTask();
                             break;
                         case 5:
+                            changeCompleteTask();
+                            break;
+                        case 6:
                             Console.WriteLine("Saliendo...");
                             break;
                         default:
@@ -73,7 +86,7 @@ namespace Task.Presentation
                     Console.WriteLine("Por favor, ingresa un número válido.");
                 }
 
-            } while (option != 5);
+            } while (option != 6);
         }
 
        
