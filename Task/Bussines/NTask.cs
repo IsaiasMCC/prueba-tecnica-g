@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task.Bussines
+namespace TaskApp.Bussines
 {
     public class NTask
     {
-        public NTask() 
+        public NTask()
         {
             Tasks = new List<TaskModel>();
         }
@@ -50,12 +50,12 @@ namespace Task.Bussines
 
         public List<TaskModel> getPendingTask()
         {
-            return Tasks.Where( task => !(task.State)).ToList(); 
+            return Tasks.Where(task => !task.State).ToList();
         }
 
         public List<TaskModel> getCompleteTask()
         {
-            return Tasks.Where(task => (task.State)).ToList();
+            return Tasks.Where(task => task.State).ToList();
         }
 
         public TaskModel get(int id)

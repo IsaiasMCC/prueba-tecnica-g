@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using Task.Bussines;
-using Task.Datas;
+using TaskApp.Bussines;
+using TaskApp.Datas;
 
-namespace Task.Presentation
+namespace TaskApp.Presentation
 {
     public class Presentation
     {
         public NTask task;
 
-        public Presentation() 
+        public Presentation()
         {
             string filePath = "task.json";
             task = new NTask();
@@ -49,7 +48,7 @@ namespace Task.Presentation
             Console.WriteLine("\nTareas Pendientes:");
             showHeadTask();
             string tableFooter = "╚═══════╩════════════════════════╝";
-            foreach (TaskModel task in task.Tasks.Where(task => !(task.State)))
+            foreach (TaskModel task in task.Tasks.Where(task => !task.State))
             {
                 string row = $"║ {task.Id,-5} ║ {task.Name,-20} ";
                 Console.WriteLine(row);
@@ -63,7 +62,7 @@ namespace Task.Presentation
             Console.WriteLine("\nTareas Completadas:");
             showHeadTask();
             string tableFooter = "╚═══════╩════════════════════════╝";
-            foreach (TaskModel task in task.Tasks.Where(task => (task.State)))
+            foreach (TaskModel task in task.Tasks.Where(task => task.State))
             {
                 string row = $"║ {task.Id,-5} ║ {task.Name,-20} ║";
                 Console.WriteLine(row);
@@ -131,9 +130,9 @@ namespace Task.Presentation
 
             } while (option != 6);
             //Guarda el archivo
-            Serialize.Save<NTask>(task, "task.json");
+            Serialize.Save(task, "task.json");
         }
 
-       
+
     }
 }

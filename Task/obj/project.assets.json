@@ -60,9 +60,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Task.csproj",
-      "projectName": "Task",
-      "projectPath": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Task.csproj",
+      "projectUniqueName": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\TaskApp.csproj",
+      "projectName": "TaskApp",
+      "projectPath": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\TaskApp.csproj",
       "packagesPath": "C:\\Users\\isais\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\obj\\",
       "projectStyle": "PackageReference",

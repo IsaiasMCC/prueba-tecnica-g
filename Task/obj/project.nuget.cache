@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sj98TFUZPL3RVhxE/X24vJyqc/FGXSosN7YEXu92xMYOQLyWpI/uE0hzRFH2CN6WQ9RSlFBfcNfXTfggytTRsw==",
+  "dgSpecHash": "KT6iqxYqpsFMBMiSRqALLXwGEfZb+QT4INQG6tUj6JYfPEV6+QmE7p07O+0p8mrdqfLeO80qrnChYOa0A64e1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Task.csproj",
+  "projectFilePath": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\TaskApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isais\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

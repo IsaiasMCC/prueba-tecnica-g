@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\datas\\serialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\datas\\serialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\presentation\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\presentation\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\bussines\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\bussines\\ntask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\presentation\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\presentation\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\datas\\serialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\datas\\serialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\api\\dto\\requesttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\api\\dto\\requesttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|c:\\users\\isais\\source\\repos\\consoletask\\task\\api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B81ED5D-ADB3-411E-A028-F1F1648A71CB}|Task\\Task.csproj|solutionrelative:task\\api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -48,82 +48,88 @@
               "RelativeDocumentMoniker": "Task\\API\\Dto\\RequestTask.cs",
               "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\API\\Dto\\RequestTask.cs",
               "RelativeToolTip": "Task\\API\\Dto\\RequestTask.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T04:19:10.212Z"
+              "WhenOpened": "2024-10-24T04:19:10.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Serialize.cs",
               "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Datas\\Serialize.cs",
               "RelativeDocumentMoniker": "Task\\Datas\\Serialize.cs",
               "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Datas\\Serialize.cs",
               "RelativeToolTip": "Task\\Datas\\Serialize.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAEwAwAAAAzAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T03:24:10.628Z"
+              "WhenOpened": "2024-10-24T03:24:10.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\API\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Task\\API\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\API\\Controllers\\TaskController.cs",
               "RelativeToolTip": "Task\\API\\Controllers\\TaskController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwDsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T03:14:15.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Presentation.cs",
               "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Presentation\\Presentation.cs",
               "RelativeDocumentMoniker": "Task\\Presentation\\Presentation.cs",
               "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Presentation\\Presentation.cs",
               "RelativeToolTip": "Task\\Presentation\\Presentation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAuwAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:40:42.722Z"
+              "WhenOpened": "2024-10-23T18:40:42.722Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TaskModel.cs",
               "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Bussines\\TaskModel.cs",
               "RelativeDocumentMoniker": "Task\\Bussines\\TaskModel.cs",
               "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Bussines\\TaskModel.cs",
               "RelativeToolTip": "Task\\Bussines\\TaskModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:40:39.523Z"
+              "WhenOpened": "2024-10-23T18:40:39.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "NTask.cs",
               "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Bussines\\NTask.cs",
               "RelativeDocumentMoniker": "Task\\Bussines\\NTask.cs",
               "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Bussines\\NTask.cs",
               "RelativeToolTip": "Task\\Bussines\\NTask.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAA6wDYAAAAAAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwBYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:40:31.291Z"
+              "WhenOpened": "2024-10-23T18:40:31.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Program.cs",
               "RelativeDocumentMoniker": "Task\\Program.cs",
               "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\Program.cs",
               "RelativeToolTip": "Task\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T14:51:30.984Z"
+              "WhenOpened": "2024-10-23T14:51:30.984Z",
+              "EditorCaption": ""
             }
           ]
         }

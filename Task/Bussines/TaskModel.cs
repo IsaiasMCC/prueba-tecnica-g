@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task.Bussines
+namespace TaskApp.Bussines
 {
     public class TaskModel
     {
-        public TaskModel(string Name) 
+        public TaskModel(string Name)
         {
-            this.Id = 0;
+            Id = 0;
             this.Name = Name;
-            this.State = false;
+            State = false;
         }
 
         public int Id { get; set; }

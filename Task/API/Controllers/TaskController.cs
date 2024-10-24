@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Task.Bussines;
-using Task.Datas;
-using Task.API.Dto;
+using TaskApp.API.Dto;
+using TaskApp.Bussines;
+using TaskApp.Datas;
 
-namespace Task.API.Controllers
+namespace TaskApp.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -21,7 +21,7 @@ namespace Task.API.Controllers
             {
                 task = Serialize.Load<NTask>(filePath);
             }
-        }     
+        }
 
         //  Para añadir una nueva tarea.
         [HttpPost]
@@ -58,5 +58,11 @@ namespace Task.API.Controllers
             return new JsonResult(task.getPendingTask());
         }
 
+        // Para obtener los detalles de una tarea específica.
+        [HttpGet("{id}")]
+        public JsonResult GetTaskById(int id)
+        {
+            return task.get(id) != null ? new JsonResult(task.get(id)) : new JsonResult(new { message = "No existe tarea con este id" });
+        }
     }
 }

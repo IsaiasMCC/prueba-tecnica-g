@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using Task.Bussines;
-namespace Task.Datas
+using TaskApp.Bussines;
+namespace TaskApp.Datas
 {
-   
+
     public class Serialize
     {
         public static void Save<T>(T objeto, string f)
@@ -20,7 +20,7 @@ namespace Task.Datas
 
         public static T Load<T>(string f)
         {
-            T objectt = default(T);
+            T objectt = default;
             TextReader read = new StreamReader($"{f}");
             string s = read.ReadToEnd();
             objectt = JsonConvert.DeserializeObject<T>(s);
@@ -31,7 +31,7 @@ namespace Task.Datas
 
         public static bool ExistFile(string file)
         {
-            return  File.Exists(file);
+            return File.Exists(file);
         }
     }
 }
