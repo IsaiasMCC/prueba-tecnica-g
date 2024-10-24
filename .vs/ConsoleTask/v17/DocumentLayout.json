@@ -50,8 +50,7 @@
               "RelativeToolTip": "Task\\API\\Dto\\RequestTask.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T04:19:10.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T04:19:10.212Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Task\\Datas\\Serialize.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAEwAwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T03:24:10.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T03:24:10.628Z"
             },
             {
               "$type": "Document",
@@ -74,7 +72,7 @@
               "RelativeDocumentMoniker": "Task\\API\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\isais\\source\\repos\\ConsoleTask\\Task\\API\\Controllers\\TaskController.cs",
               "RelativeToolTip": "Task\\API\\Controllers\\TaskController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA1wCIAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwCcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T03:14:15.775Z",
               "EditorCaption": ""
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Task\\Presentation\\Presentation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:40:42.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T18:40:42.722Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Task\\Bussines\\TaskModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:40:39.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T18:40:39.523Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "Task\\Bussines\\NTask.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAA6wDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:40:31.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T18:40:31.291Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "Task\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T14:51:30.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T14:51:30.984Z"
             }
           ]
         }

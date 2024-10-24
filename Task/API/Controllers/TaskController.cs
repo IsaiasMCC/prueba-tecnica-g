@@ -33,5 +33,14 @@ namespace Task.API.Controllers
             return new JsonResult(new { message = "Tarea agregada con éxito" });
         }
 
+        // Para eliminar una tarea.
+        [HttpDelete("{id}")]
+        public JsonResult DeleteTask(int id)
+        {
+            task.remove(id);
+            Serialize.Save(task, filePath);
+            return new JsonResult(new { message = "Tarea eliminada con éxito" });
+        }
+
     }
 }
